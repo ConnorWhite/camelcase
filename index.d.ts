@@ -5,7 +5,13 @@ declare namespace camelcase {
 
 		@default false
 		*/
-		readonly pascalCase?: boolean;
+    readonly pascalCase?: boolean;
+    /**
+    Leave abbreviations uppercased: `user-ID-card` → `userIDCard`
+
+    @default false
+    */
+    readonly abbreviations?: boolean;
 	}
 }
 
