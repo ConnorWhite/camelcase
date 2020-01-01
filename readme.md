@@ -67,6 +67,14 @@ Default: `false`
 
 Uppercase the first character: `foo-bar` → `FooBar`
 
+##### abbreviations
+
+Type: `boolean`<br>
+Default: `false`
+
+Leave abbreviations uppercased: `user-ID-card` → `userIDCard`
+
+
 
 ## camelcase for enterprise
 
